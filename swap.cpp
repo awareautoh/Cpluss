@@ -21,7 +21,7 @@ int main(){
 	cout<<"before swap a = "<<a<<endl;
 	cout<<"before swap b = "<<b<<endl;
 
-	//call awap function 
+	//call awap function to change the value of b and c
 
 	swap(a,b);
 
