@@ -28,6 +28,16 @@ int main(){
 	cout<<"the value of a is "<<a<<endl;
 	cout<<"the value of b is "<<b<<endl;
 
+	//swap other value
+
+	int c = 5;
+	int e = 10;
+
+	swap(c,e);
+
+	cout<< "the value of c is " << c <<endl;
+	cout<< "the value of e is " << e <<endl;
+
 
 
 
