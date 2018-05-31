@@ -34,6 +34,10 @@ public:
 
 	void add(int first, int second){
 
+		/*
+			x += 10
+   			means: x = x + 10
+		*/
 		x += first;
 		y += second;
 
