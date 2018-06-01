@@ -18,6 +18,22 @@ int countZeros(int **arr, int clos, int rows){
 
 }
 
+//add sum function 
+
+int sumF(int **arr, int clos, int rows){
+
+	int sum =0;
+
+	for(int i=0; i<rows; i++){
+
+		for(int j=0; j<clos; j++)
+			sum += arr[i][j];
+	}
+
+	return sum;
+}
+
+
 
 int main(){
 
@@ -28,6 +44,8 @@ int main(){
     arr[3] = new int[3] {1, 0, 1};
     arr[4] = new int[3] {0, 1, 1};
     cout << "Number of zeros in array: " << countZeros(arr, 3, 5) << endl;
+
+    cout << "The total number of array: " << sumF(arr,3,5) <<endl;
 
 
 
