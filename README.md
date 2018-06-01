@@ -1,1 +1,1 @@
-The C++ exercise for the teaching material
+The C++ exercises and xamples for the teaching material
