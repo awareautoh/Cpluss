@@ -33,10 +33,6 @@ int main(){
  cout<< callfunc <<endl;
 
 
-	
-
-
-
 
 return 0;
 
