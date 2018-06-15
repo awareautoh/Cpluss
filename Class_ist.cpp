@@ -85,7 +85,7 @@ public:
                 tax = 0.5;
             }
 
-
+            //calculte the price 
            return getPrice() * tax; 
 
         }
