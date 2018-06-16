@@ -46,7 +46,7 @@ public:
 
 
 };
-
+// main file
 int main() {
     MyString m(new char[5] {'H', 'e', 'l', 'l', 'o'},5);
     cout << "My string is: " << m.toString() << endl;
