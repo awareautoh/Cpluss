@@ -13,7 +13,7 @@ int main(){
 
 
 
-	// multi dimention array 
+	// multi dimention array print out
 
 	int marray[2][2] = {1,2,3,4};
 
