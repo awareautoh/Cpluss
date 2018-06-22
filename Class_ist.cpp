@@ -54,7 +54,7 @@ public:
     Vehicle(manufacturer,model,engineSize,year,price){
 
     }
-
+    // calculate tax
     float calculateVehicleTax(){
 
         float tax = 0.15;
