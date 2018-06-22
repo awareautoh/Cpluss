@@ -9,6 +9,7 @@ int countZeros(int **arr, int clos, int rows){
 	for(int i= 0; i<rows; i++){
 		for(int j=0; j<clos; j++)
 			if(arr[i][j]==0)
+				//count how many zero here
 				zeros++;
 
 
