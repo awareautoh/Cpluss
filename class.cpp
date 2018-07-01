@@ -27,6 +27,7 @@ class Class2{
 /*
 	x += 10
    means: x = x + 10
+   s
 */
 public:
 	int x;
